@@ -21,6 +21,11 @@ body .center-x-y .input-section input[type=text] {
   font-size: 15px;
   padding: 5px;
 }
+@media (max-width: 480px) {
+  body .center-x-y .input-section input[type=text] {
+    min-width: 180px;
+  }
+}
 body .center-x-y .input-section .input-buttons {
   cursor: pointer;
   display: flex;
@@ -79,6 +84,11 @@ body .center-x-y .output-section .task {
   width: 380px;
   border: 2px solid #390080;
   border-radius: 8px;
+}
+@media screen and (max-width: 480px) {
+  body .center-x-y .output-section .task {
+    width: 280px;
+  }
 }
 body .center-x-y .output-section .task .icons {
   display: flex;
