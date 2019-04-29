@@ -1,0 +1,1 @@
+$(function () {    $(".fa-check").click(function () {        $(".output-item").addClass("not-active");    });});
