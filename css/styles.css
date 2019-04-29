@@ -46,6 +46,7 @@ body .center-x-y #output-section ul {
   padding-inline-start: 0;
 }
 body .center-x-y #output-section .not-active {
+  border: 2px solid grey !important;
   text-decoration: line-through;
   color: grey !important;
 }
