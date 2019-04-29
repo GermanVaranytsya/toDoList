@@ -45,6 +45,9 @@ body .center-x-y #output-section ul {
   list-style-type: none;
   padding-inline-start: 0;
 }
+body .center-x-y #output-section .done-hidden .done {
+  display: none !important;
+}
 body .center-x-y #output-section .done {
   border: 2px solid grey !important;
   text-decoration: line-through;
