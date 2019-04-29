@@ -45,22 +45,23 @@ body .center-x-y #output-section ul {
   list-style-type: none;
   padding-inline-start: 0;
 }
-body .center-x-y #output-section .not-active {
+body .center-x-y #output-section .done {
   border: 2px solid grey !important;
   text-decoration: line-through;
   color: grey !important;
 }
-body .center-x-y #output-section .not-active .icons .fa-check {
+body .center-x-y #output-section .done .icons .fa-check {
   display: none !important;
 }
-body .center-x-y #output-section .not-active .icons .fa-times {
+body .center-x-y #output-section .done .icons .fa-times {
   color: grey !important;
   cursor: pointer;
 }
-body .center-x-y #output-section .not-active .icons .fa-history {
+body .center-x-y #output-section .done .icons .fa-history {
+  display: inline-block !important;
   cursor: pointer;
 }
-body .center-x-y #output-section .output-item {
+body .center-x-y #output-section .task {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,15 +74,18 @@ body .center-x-y #output-section .output-item {
   border: 2px solid #390080;
   border-radius: 8px;
 }
-body .center-x-y #output-section .output-item .icons {
+body .center-x-y #output-section .task .icons {
   display: flex;
   flex-direction: row;
 }
-body .center-x-y #output-section .output-item .icons .fa-check {
+body .center-x-y #output-section .task .icons .fa-history {
+  display: none;
+}
+body .center-x-y #output-section .task .icons .fa-check {
   color: green;
   cursor: pointer;
 }
-body .center-x-y #output-section .output-item .icons .fa-times {
+body .center-x-y #output-section .task .icons .fa-times {
   color: red;
   cursor: pointer;
 }
