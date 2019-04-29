@@ -9,19 +9,19 @@ body .center-x-y {
   justify-content: center;
   flex-direction: column;
 }
-body .center-x-y #input-section {
+body .center-x-y .input-section {
   max-width: 500px;
   display: flex;
   flex-direction: row;
 }
-body .center-x-y #input-section input[type=text] {
+body .center-x-y .input-section input[type=text] {
   border: 2px solid #390080;
   border-radius: 8px;
   min-width: 280px;
   font-size: 15px;
   padding: 5px;
 }
-body .center-x-y #input-section .input-buttons {
+body .center-x-y .input-section .input-buttons {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -32,39 +32,42 @@ body .center-x-y #input-section .input-buttons {
   background-color: #390080;
   transition: 0.3s;
 }
-body .center-x-y #input-section .input-buttons i {
+body .center-x-y .input-section .input-buttons i {
   color: white;
 }
-body .center-x-y #input-section .input-buttons:hover {
+body .center-x-y .input-section .input-buttons:hover {
   background-color: #6400e3;
 }
-body .center-x-y #output-section {
+body .center-x-y .input-section .grey {
+  background-color: grey !important;
+}
+body .center-x-y .output-section {
   margin-top: 20px;
 }
-body .center-x-y #output-section ul {
+body .center-x-y .output-section ul {
   list-style-type: none;
   padding-inline-start: 0;
 }
-body .center-x-y #output-section ul.done-hidden .done {
+body .center-x-y .output-section ul.done-hidden .done {
   display: none !important;
 }
-body .center-x-y #output-section .done {
+body .center-x-y .output-section .done {
   border: 2px solid grey !important;
   text-decoration: line-through;
   color: grey !important;
 }
-body .center-x-y #output-section .done .icons .fa-check {
+body .center-x-y .output-section .done .icons .fa-check {
   display: none !important;
 }
-body .center-x-y #output-section .done .icons .fa-times {
+body .center-x-y .output-section .done .icons .fa-times {
   color: grey !important;
   cursor: pointer;
 }
-body .center-x-y #output-section .done .icons .fa-history {
+body .center-x-y .output-section .done .icons .fa-history {
   display: inline-block !important;
   cursor: pointer;
 }
-body .center-x-y #output-section .task {
+body .center-x-y .output-section .task {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,18 +80,18 @@ body .center-x-y #output-section .task {
   border: 2px solid #390080;
   border-radius: 8px;
 }
-body .center-x-y #output-section .task .icons {
+body .center-x-y .output-section .task .icons {
   display: flex;
   flex-direction: row;
 }
-body .center-x-y #output-section .task .icons .fa-history {
+body .center-x-y .output-section .task .icons .fa-history {
   display: none;
 }
-body .center-x-y #output-section .task .icons .fa-check {
+body .center-x-y .output-section .task .icons .fa-check {
   color: green;
   cursor: pointer;
 }
-body .center-x-y #output-section .task .icons .fa-times {
+body .center-x-y .output-section .task .icons .fa-times {
   color: red;
   cursor: pointer;
 }
