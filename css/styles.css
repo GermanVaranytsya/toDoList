@@ -66,11 +66,12 @@ body .center-x-y .output-section .done .icons .fa-check {
 }
 body .center-x-y .output-section .done .icons .fa-times {
   color: grey !important;
-  cursor: pointer;
+}
+body .center-x-y .output-section .done .icons .fa-exclamation-triangle {
+  color: grey !important;
 }
 body .center-x-y .output-section .done .icons .fa-history {
   display: inline-block !important;
-  cursor: pointer;
 }
 body .center-x-y .output-section .task {
   display: flex;
@@ -103,6 +104,10 @@ body .center-x-y .output-section .task .icons .fa-check {
 }
 body .center-x-y .output-section .task .icons .fa-times {
   color: red;
+  cursor: pointer;
+}
+body .center-x-y .output-section .task .icons .fa-exclamation-triangle {
+  color: orange;
   cursor: pointer;
 }
 body .ml-15 {
