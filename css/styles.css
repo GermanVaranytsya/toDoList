@@ -43,7 +43,7 @@ body .center-x-y .input-section .input-buttons i {
 body .center-x-y .input-section .input-buttons:hover {
   background-color: #6400e3;
 }
-body .center-x-y .input-section .disabled {
+body .center-x-y .input-section .grey {
   background-color: grey !important;
 }
 body .center-x-y .output-section {
